@@ -327,6 +327,9 @@ currentPage = {
 	    } else if (cnVariant === 4) {
                 algorithm = 'Cryptonight Fast (Masari)';
                 xmrstakAlgo = 'cryptonight_masari';
+      	    } else if (cnVariant === 8) {
+                algorithm = 'Cryptonight Variant 2 (Cryptonight v8)';
+                xmrstakAlgo = 'cryptonight_v8';
             } else {
                 algorithm = 'Cryptonight (Original)';
                 xmrstakAlgo = 'cryptonight';
@@ -345,10 +348,12 @@ currentPage = {
         if (coin == 'ipbc') xmrstakAlgo = 'ipbc';
         if (coin == 'karbo') xmrstakAlgo = 'karbo';
         if (coin == 'masari') xmrstakAlgo = 'masari';
-        if (coin == 'monero') xmrstakAlgo = 'monero7';
+        if (coin == 'monero') xmrstakAlgo = 'monero';
         if (coin == 'stellite') xmrstakAlgo = 'stellite';
         if (coin == 'sumokoin') xmrstakAlgo = 'sumokoin';
         if (coin == 'turtlecoin') xmrstakAlgo = 'turtlecoin';
+        if (coin == 'ryo') xmrstakAlgo = 'ryo';
+        if (coin == 'bittube') xmrstakAlgo = 'bittube';
         */
 
         updateText('cnAlgorithm', algorithm);
