@@ -21,7 +21,8 @@
         "nodemailer-sendmail-transport": "*",
         "redis": "*",
         "socket.io": "^2.1.1",
-        "time-ago": "*"
+        "time-ago": "*",
+        "webhook-discord": "*"
     },
     "engines": {
         "node": ">=4.0"
