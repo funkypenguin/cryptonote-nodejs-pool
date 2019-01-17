@@ -493,6 +493,12 @@ Explanation for each field:
     }    
 },
 
+*/ Discord webhook notifications */
+"discord": {
+    "enabled": false,
+    "webhookurl": ""      // Webhook URL for notifications
+}	
+
 /* Monitoring RPC services. Statistics will be displayed in Admin panel */
 "monitoring": {
     "daemon": {
