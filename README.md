@@ -41,7 +41,7 @@ You want to run a Turtlecoin pool, for one thing. This repo includes support for
 
 # CHANGELOG
 
-* 20 Jan 2018 - Updated for CN-Turtlecoin-lite
+* 20 Jan 2019 - Updated for CN-Turtlecoin-lite
 ---
 
 # Upstream README
